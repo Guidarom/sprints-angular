@@ -1,0 +1,294 @@
+*{
+    margin: 4px;
+   padding: 4px; 
+   box-sizing: border-box; 
+}
+
+h1{
+    background:rgba(0, 0, 0, 0.051);
+    font-family: 'Lora', serif;
+    color: #ef5b0ca2;
+    font-size: 23px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 80%;
+    
+}
+
+h2{
+        background-color: #FF7C7C;
+        color: whitesmoke;
+        font-family:'Roboto', sans-serif;
+
+    }
+h3{
+    color: black;
+    font-family: 'Roboto', sans-serif; 
+    font-weight:bolder;
+    display: flex;
+    justify-content: center;
+}
+   
+body {
+    display: flex;
+    justify-content: center;
+} 
+
+.padre {
+    
+    display: flex;
+    flex-flow: column nowrap;  
+    max-width: 1200px;
+}
+.header{  
+    background-image: url("Imagenes/header.jpg");
+    border-right: 9px solid white ;
+    border-left: 9px solid white;
+    background-position:center;
+    background-size: 150%;
+    height: 380px;
+    background-attachment:contain;   
+}
+   .menu{
+         display: flex; 
+         flex-flow: row nowrap;
+         height: 60px;
+          align-items: center;
+   }
+       .logo{
+             display: flex;
+             flex: 1 1 auto;
+             justify-content: center;
+            }
+            .logo img{
+                height: 70px;               
+              }
+        .nav{
+            font-family: 'Nunito', sans-serif; 
+            font-size: 13px; 
+            display: flex;
+            flex: 5 1 auto;
+            justify-content: space-around;
+            align-items:center;
+            flex-flow: wrap;
+            margin: 0%;
+            padding: 0%; 
+       }
+            .iconos{
+                color: hsl(0, 0%, 50%);
+                display: flex;
+                flex: 1 1 auto;
+                justify-content: flex-start;
+                margin: 0%;
+                padding: 0%;
+                align-items: center;
+            }
+            .iconos p{
+                margin: 0%;
+                padding: 0%;
+            }
+            
+       .social{
+             display: flex;
+             flex: 1 1 auto;
+             color: hsl(0, 0%, 50%);
+       }
+   .texto-principal{
+         display: flex; 
+         justify-content: center;
+         align-items: flex-end;  
+         height: 92%; 
+   }
+     
+.section{
+    background: white; 
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex: 1 1 auto  
+}
+   .articulos{
+       background: #d1d1d1e5;;
+       flex: 2 1 auto;
+       display: flex;
+       flex-flow: row wrap;
+   }
+       .article{
+           background: whitesmoke;
+           flex: 1 1 40%;    
+       }
+            .more{
+                color: #9c9c9c;
+                font-weight: 500;
+            }
+            .photos1 {
+                background-image: url("/Imagenes/sakura.jpg");
+                background-repeat: no-repeat;
+                height: 250px;
+                background-position: center;
+                background-size: cover;
+                display: flex;
+                align-items: flex-end;
+                margin: 1%;
+                padding: 1%;
+            }
+                .photos1 p{
+                    position: absolute;
+                    color:rgba(255, 255, 0, 0.76);
+                    margin: 0%;
+                    padding: 0%;
+                }
+            .photos2 {
+                background-image: url("/Imagenes/comida.jpg");
+                background-repeat: no-repeat;
+                height: 250px;
+                background-position: center;
+                background-size: cover;
+                display: flex;
+                align-items: flex-end;
+                margin: 1%;
+                padding: 1%;
+            }
+
+                .photos2 p{
+                    position: absolute;
+                    color: rgba(255, 255, 0, 0.76);
+                    margin: 0%;
+                    padding: 0%;
+                }
+            .photos3 {
+                background-image: url("/Imagenes/fuji.jpg");
+                background-repeat: no-repeat;
+                height: 250px;
+                background-position: center;
+                background-size: cover;
+                display: flex;
+                align-items: flex-end;
+                margin: 1%;
+                padding: 1%;
+            }
+
+                .photos3 p{
+                    position: absolute;
+                    color:rgba(255, 255, 0, 0.76);
+                    margin: 0%;
+                    padding: 0%;
+                }
+            .photos4 {
+                background-image: url("/Imagenes/noche.jpg");
+                background-repeat: no-repeat;
+                height: 250px;
+                background-position:center;
+                background-size: cover;
+                display: flex;
+                align-items: flex-end;
+                margin: 1%;
+                padding: 1%;
+            }
+
+                .photos4 p{
+                    position: absolute;
+                    color:rgba(255, 255, 0, 0.76);
+                    margin: 0%;
+                    padding: 0%;
+                }    
+            
+            .article p{
+                column-count: 2;
+
+            }
+       .navegacion{
+           
+           font-weight: bold;
+           text-align: center;
+           flex: 1 1 100%;
+       }
+   .aside{
+       background: #d1d1d1e5;
+       display: flex;
+       align-items: center;
+       flex: 1 1 auto;
+       flex-flow: column;
+       
+   }
+       .publicidad{
+           
+           text-align: center;
+            width: 250px; 
+            padding: 0%;  
+       }
+.footer{
+    background: white;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+   .pie{
+        background: whitesmoke;
+        border-left: 10px solid #d1d1d1e5;
+        border-right: 10px solid #d1d1d1e5;
+        text-align: center;
+   }
+
+@media (max-width: 991.98px) { 
+    .article p{
+        column-count:auto;
+    }
+    .publicidad{
+        width: 160px;
+    }
+}   
+
+@media (max-width:767.98px)  {
+    .section{
+        flex-direction: column;
+} 
+    h1{
+        align-items: center;
+        width: 95%;
+    }   
+    .publicidad p{
+        width:fit-content;
+        align-items: center;
+        margin: 0%;
+        padding: 0%;
+       }     
+    
+}
+
+ @media (max-width:575.98px){
+   
+    .section{
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 auto;
+    } 
+    .article{
+        flex:1 1 auto;
+    }
+    .menu{
+        flex-direction: column;
+    }
+    .texto-principal{
+        align-items: flex-end;
+        
+    }
+    h1{
+        font-size: 20px;
+        align-items: flex-start;
+        
+    }
+    .social{
+        display: flex;
+        flex: 1 1 auto;
+        width: 100%;
+        justify-content: space-between;
+        
+    }
+ }
+ @media (max-width:400px){
+
+    .texto-principal{
+        display: none;
+    }
+ }
