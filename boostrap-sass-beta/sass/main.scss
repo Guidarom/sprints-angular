@@ -1,0 +1,40 @@
+@import "tabs";
+
+//custom colors
+$primary: #5265e1;
+$secondary: #fa5959;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
+
+
+nav-item a {
+	color: darkgrey;
+}
+
+.margen{
+    margin-top: 10vh;
+}
+
+
+@media (min-width: 768px){
+
+	.containerCards{
+		height: 400px;
+	}
+	.navSize {
+		max-width: 1100px;
+	}
+	.containerNavbar{
+		padding-right: 100px;
+	}
+
+
+}
+/* .nav-item a:hover {
+	color: $secondary;
+}
+$nav-link-color: black;
+$nav-link-hover-color: $secondary; */
