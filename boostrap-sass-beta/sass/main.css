@@ -11027,7 +11027,8 @@ nav-item a {
 }
 
 .margen {
-  margin-top: 10vh;
+  max-width: 450px;
+  margin-top: 5vh;
 }
 
 @media (min-width: 768px) {
@@ -11039,5 +11040,8 @@ nav-item a {
   }
   .containerNavbar {
     padding-right: 100px;
+  }
+  .margen {
+    margin-top: 10vh;
   }
 }/*# sourceMappingURL=main.css.map */
