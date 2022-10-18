@@ -5,6 +5,18 @@
   padding-bottom: 12px !important;
 }
 
+#myTab {
+  flex-direction: row !important;
+  border-bottom: 0px;
+}
+#myTab .nav-item {
+  border-top: 0 !important;
+  border-bottom: 1px solid rgb(193, 193, 193) !important;
+}
+#myTab .nav-item .nav-link:hover {
+  color: #fa5959 !important;
+}
+
 /*!
  * Bootstrap  v5.2.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
@@ -11028,20 +11040,4 @@ nav-item a {
   .containerNavbar {
     padding-right: 100px;
   }
-}
-#myTab {
-  flex-direction: row !important;
-}
-#myTab .nav-item {
-  border-top: 0 !important;
-  border-bottom: 1px solid rgb(193, 193, 193) !important;
-}
-#myTab .nav-item .nav-link:hover {
-  color: #fa5959 !important;
-}
-
-/* .nav-item a:hover {
-	color: $secondary;
-}
-$nav-link-color: black;
-$nav-link-hover-color: $secondary; *//*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
