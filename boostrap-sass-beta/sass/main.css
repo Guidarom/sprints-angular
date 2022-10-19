@@ -17,6 +17,15 @@
   color: #fa5959 !important;
 }
 
+.accordion-item {
+  border-right: white !important;
+  border-left: white !important;
+}
+
+.accordion-button:hover {
+  color: #fa5959;
+}
+
 /*!
  * Bootstrap  v5.2.2 (https://getbootstrap.com/)
  * Copyright 2011-2022 The Bootstrap Authors
